@@ -118,6 +118,7 @@ function initPlayer() {
                 if (prv != cur) {
                     prv = cur;
                     if (cur != "") {
+                        parent.className = "vjs-text-track-display";
                         parent.innerHTML = `
 <div>
 ${arr.map(e => `
