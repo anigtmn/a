@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js" integrity="sha512-a+SUDuwNzXDvz4XrIcXHuCf089/iJAoN4lmrXJg18XnduKK6YlDHNRalv4yd1N40OKI80tFidF+rqTFKGPoWFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet">
+<script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+<link href="vjs.css" rel="stylesheet">
+<script src="vjs.js"></script>
+</head>
+<body>
+<video id="player" class="video-js vjs-default-skin" autoplay loop muted controls playsinline playsInline webkit-playsinline></video>
+<script>
+// fetch("getSources.php?id=" + urlParams.get("id")).then(e => e.json()).then(e => startData(e));
+startData({
+    "sources": [{file:"https://fds.biananset.net/_v7/81d3332c21bc6c1602f07bf1eccfe5a61c17ea23f90f1792488bc5e06b87948b4388bb24510c138e8bf23e91920596e964ede1a17121ab5be4f7f19b9228cb4b8cc9cb1712f0c2ba286e09269d3b360e2f660ffba83eb8ff084ebb3e504d2c9ffc3b1c68369ae8f91fa2df74324a23954264a512773d2890ba1656adf7d77c57/master.m3u8"}],
+    "tracks": [
+        {
+            "file": "https://cc.bunnyccdn.co/16/c6/16c6c3f6a1b9d72032d4e8f67220bc7b/eng-2.vtt",
+            "label": "English",
+            "kind": "captions",
+            "default": true
+        },
+        {
+            "file": "https://cc.bunnyccdn.co/16/c6/16c6c3f6a1b9d72032d4e8f67220bc7b/fre-6.vtt",
+            "label": "French",
+            "kind": "captions"
+        },
+        {
+            "file": "https://cc.bunnyccdn.co/16/c6/16c6c3f6a1b9d72032d4e8f67220bc7b/ger-3.vtt",
+            "label": "German",
+            "kind": "captions"
+        },
+        {
+            "file": "https://cc.bunnyccdn.co/16/c6/16c6c3f6a1b9d72032d4e8f67220bc7b/ita-7.vtt",
+            "label": "Italian",
+            "kind": "captions"
+        },
+        {
+            "file": "https://cc.bunnyccdn.co/16/c6/16c6c3f6a1b9d72032d4e8f67220bc7b/por-8.vtt",
+            "label": "Portuguese - Portuguese (Brazil)",
+            "kind": "captions"
+        },
+        {
+            "file": "https://cc.bunnyccdn.co/16/c6/16c6c3f6a1b9d72032d4e8f67220bc7b/rus-9.vtt",
+            "label": "Russian",
+            "kind": "captions"
+        },
+        {
+            "file": "https://cc.bunnyccdn.co/16/c6/16c6c3f6a1b9d72032d4e8f67220bc7b/spa-4.vtt",
+            "label": "Spanish",
+            "kind": "captions"
+        },
+        {
+            "file": "https://cc.bunnyccdn.co/16/c6/16c6c3f6a1b9d72032d4e8f67220bc7b/spa-5.vtt",
+            "label": "Spanish - Spanish (Latin America)",
+            "kind": "captions"
+        }
+    ],
+    "encrypted": false,
+    "intro": {
+        "start": 35,
+        "end": 124
+    },
+    "outro": {
+        "start": 1285,
+        "end": 1375
+    },
+    "server": 4
+});
+</script>
+</body>
+</html>
